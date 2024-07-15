@@ -1,0 +1,99 @@
+/* 
+=========
+Main Styles
+=========
+*/
+@import "./variables";
+@import "./global";
+@import "./mediaQueries";
+
+/* 
+=========
+Styles
+=========
+*/
+.sect-social-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--neutral-dark-grey-color);
+  margin: 3rem auto;
+  border-radius: 15px;
+}
+
+.image {
+  padding-top: 1.6rem;
+  width: 100px;
+  height: 100px;
+}
+
+img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.heading-lg {
+  margin-top: 3rem;
+  font-size: 1.3rem;
+}
+.subtitle {
+  color: var( --primary-green-color);
+  margin-top: 0.8rem;
+  margin-bottom: 1.8rem;
+  padding: 0 5rem;
+}
+
+p > q {
+   
+  color: #fff;
+}
+
+
+.social {
+ margin-top: 2px;
+ margin-bottom: 33px;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ font-weight: 900;
+ cursor: pointer;
+}
+
+.links {
+  width: 300px;
+  height: 50px;
+  margin-top: 2rem;
+  margin: 2rem 2rem 0 2rem;
+  border-radius: 15px;
+  padding: 1rem 3rem;
+  background: var(--neutral-grey-color);
+  transition: all 0.3s ease-in-out;
+}
+.links:hover {
+  background: var(--primary-green-color);
+}
+
+ul li a {
+  color: #fff;
+  font-size: 400;
+}
+ul li a:hover {
+  color: #000;
+}
+
+/* 
+==============
+Footer Section
+==============
+*/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

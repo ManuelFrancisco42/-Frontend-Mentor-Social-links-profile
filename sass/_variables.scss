@@ -1,0 +1,26 @@
+/* 
+=========
+Variables Styles
+=========
+*/
+:root {
+  /* Colors */
+
+  //Primary
+  --primary-green-color: hsl(75, 94%, 57%);
+
+  // Neutral
+  --neutral-white-color: hsl(0, 0%, 100%);
+  --neutral-grey-color: hsl(0, 0%, 20%);
+  --neutral-dark-grey-color: hsl(0, 0%, 12%);
+  --neutral-off-black-color: hsl(0, 0%, 8%);
+
+  /*  Typography */
+  --global-font-size-paragraph: 14px;
+
+  // font
+  --font-family-Inter: "Inter", sans-serif;
+  --font-weight-Inter_400: 400;
+  --font-weight-Inter-600: 600;
+  --font-weight-Inter-700: 700;
+}

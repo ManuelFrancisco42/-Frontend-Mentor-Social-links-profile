@@ -1,0 +1,29 @@
+// Mobile styles
+/* @media screen and (max-width: 375px) {
+    .sect-social-links {
+      margin: 3rem 3rem;
+    }
+  
+    .links {
+      width: 100%;
+    }
+  } */
+  
+  // Tablet and above styles
+  @media screen and (min-width: 768px) {
+    .sect-social-links {
+      margin: 4rem 2rem;
+    }
+  }
+  
+  // Desktop styles
+  @media screen and (min-width: 1440px) {
+    .sect-social-links {
+      margin: 5rem 3rem;
+    }
+  
+    .links {
+      width: 350px;
+    }
+  }
+  

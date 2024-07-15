@@ -1,0 +1,42 @@
+/* 
+=========
+Global Styles
+=========
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--neutral-off-black-color);
+  font-size: var(--global-font-size-paragraph);
+  font-family: var(--font-family-Inter);
+  color: var(--neutral-white-color);
+}
+
+html {
+  font-size: var(--global-font-size-paragraph);
+}
+
+.container {
+  max-width: 1280px;
+  min-width: 375px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ 
+ 
